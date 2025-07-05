@@ -4,6 +4,9 @@ This project aims to classify types of dry beans using a dataset of shape and ge
 
 ---
 
+## Project members
+
+
 ## 📊 Dataset
 
 The dataset used is the **Dry Bean Dataset**, which contains 13 features related to the shape and geometry of bean images. It includes 7 classes:
@@ -15,7 +18,12 @@ The dataset used is the **Dry Bean Dataset**, which contains 13 features related
 - **SIRA**
 - **DERMASON**
 
-📁 Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset)
+## Dataset Source
+
+This project is based on a dataset from a real **Kaggle competition** on bean plant classification.  
+We developed and ran our notebook on (https://www.kaggle.com/competitions/bean-comp-pytunisia/overview), which provided GPU/CPU resources and competition leaderboard scoring.
+
+> **Achieving Accuracy**: 92.941%  
 
 ---
 
@@ -34,5 +42,4 @@ The dataset used is the **Dry Bean Dataset**, which contains 13 features related
 
 ---
 
-## Project Structure
 
