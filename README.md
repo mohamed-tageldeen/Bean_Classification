@@ -1,0 +1,38 @@
+# 🌱 Dry Bean Classification using Machine Learning
+
+This project aims to classify types of dry beans using a dataset of shape and geometry features. The classification is performed through various supervised machine learning models, and includes data preprocessing, exploratory data analysis (EDA), feature selection, and performance evaluation.
+
+---
+
+## 📊 Dataset
+
+The dataset used is the **Dry Bean Dataset**, which contains 13 features related to the shape and geometry of bean images. It includes 7 classes:
+- **SEKER**
+- **BARBUNYA**
+- **BOMBAY**
+- **CALI**
+- **HOROZ**
+- **SIRA**
+- **DERMASON**
+
+📁 Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset)
+
+---
+
+## Project Highlights
+
+-  **Data Cleaning & Preprocessing**
+-  **Exploratory Data Analysis (EDA)**
+-  **Model Training using Multiple Classifiers**
+  - Logistic Regression
+  - K-Nearest Neighbors (KNN)
+  - Decision Tree
+  - Support Vector Machine (SVM)
+  - Random Forest
+-  **Evaluation with Accuracy, Confusion Matrix, and Classification Reports**
+-  **Feature Importance Analysis**
+
+---
+
+## Project Structure
+
