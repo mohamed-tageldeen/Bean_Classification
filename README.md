@@ -1,44 +1,54 @@
-# 🌱 Dry Bean Classification using Machine Learning
 
-This project aims to classify types of dry beans using a dataset of shape and geometry features. The classification is performed through various supervised machine learning models, and includes data preprocessing, exploratory data analysis (EDA), feature selection, and performance evaluation.
+## Bean Classification - Kaggle Competition
 
----
-
-## Project members
-
-
-## 📊 Dataset
-
-The dataset used is the **Dry Bean Dataset**, which contains 13 features related to the shape and geometry of bean images. It includes 7 classes:
-- **SEKER**
-- **BARBUNYA**
-- **BOMBAY**
-- **CALI**
-- **HOROZ**
-- **SIRA**
-- **DERMASON**
-
-## Dataset Source
-
-This project is based on a dataset from a real **Kaggle competition** on bean plant classification.  
-We developed and ran our notebook on (https://www.kaggle.com/competitions/bean-comp-pytunisia/overview), which provided GPU/CPU resources and competition leaderboard scoring.
-
-> **Achieving Accuracy**: 92.941%  
+This repository contains a machine learning project developed for a Kaggle competition focused on classifying different types of dry beans based on geometric features. The goal was to build an accurate classifier using structured data. The final model achieved a high accuracy of **92.941%** on the validation set.
 
 ---
 
-## Project Highlights
+## Dataset
 
--  **Data Cleaning & Preprocessing**
--  **Exploratory Data Analysis (EDA)**
--  **Model Training using Multiple Classifiers**
-  - Logistic Regression
-  - K-Nearest Neighbors (KNN)
-  - Decision Tree
-  - Support Vector Machine (SVM)
-  - Random Forest
--  **Evaluation with Accuracy, Confusion Matrix, and Classification Reports**
--  **Feature Importance Analysis**
+The dataset consists of geometric measurements extracted from images of dry beans. It includes:
+
+- `train_c.csv`: Contains labeled training samples used for model development
+- `test_no_label.csv`: Contains unlabeled test samples used for prediction
+
+Each sample includes numerical features such as area, perimeter, major axis length, compactness, and others, along with the corresponding bean type (in the training set).
+
+---
+
+## Project Steps
+
+1. **Data Collection**  
+   Loaded the training and test datasets into memory for processing.
+
+2. **Data Exploration**  
+   Conducted exploratory data analysis (EDA) to understand distributions, feature correlations, and class imbalances.
+
+3. **Data Preparation**  
+   Preprocessed the data through label encoding, feature scaling, and other transformations to make it suitable for machine learning models.
+
+4. **Model Development**  
+   Trained and fine-tuned multiple machine learning classification models to find the most effective one.
+
+5. **Model Evaluation**  
+   Evaluated models using performance metrics such as accuracy and confusion matrix to identify the best candidate.
+
+6. **Prediction and Inference**  
+   Applied the selected model to the test dataset to generate predictions.
+
+7. **Result Submission**  
+   Prepared a submission file containing predictions for the Kaggle competition.
+
+---
+
+## Results
+
+- Final Accuracy on Validation Set: **92.941%**
+- Best-performing model: (RBF SVM model) selected after comparing multiple classifiers
+
+---
+
+
 
 ---
 
