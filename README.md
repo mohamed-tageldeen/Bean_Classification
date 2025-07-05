@@ -8,9 +8,9 @@ This repository contains a machine learning project developed for a Kaggle compe
 ## Project Members
 
 [Mohamed Ahmed](https://github.com/mohamed-tageldeen)
-[Sameh Walid](https://github.com/farah-mahmoudx)
+[Sameh Walid](https://github.com/SamehWalidd)
 [Adham Waheeb](https://github.com/waheeb4)
-
+[Youssef Fathi]
 ## Dataset
 
 The dataset consists of geometric measurements extracted from images of dry beans. It includes:
