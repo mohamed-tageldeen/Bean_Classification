@@ -9,7 +9,7 @@ This repository contains a machine learning project developed for a Kaggle compe
 
 [Mohamed Ahmed](https://github.com/mohamed-tageldeen)
 [Sameh Walid](https://github.com/farah-mahmoudx)
-[Adham Waheeb](https://github.com/farah-mahmoudx)
+[Adham Waheeb](https://github.com/waheeb4)
 
 ## Dataset
 
